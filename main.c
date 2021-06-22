@@ -27,11 +27,13 @@ void main(void){
         acum/=10;
         //weight=acum;
         weight=M*acum+B;
-        printf("%.2f\r\n",weight);  
+        printf("%.2f\r\n",weight-70.0f);  
         __delay_ms(500);
                 
     }
+    //aprox 126g de agua destilada  15-16 grados densidad 999.15-999.06 Kg/m3
     
+    //    126g/0.999105 =126.1128cm3
 }
 
 /* ------------------------ Fin de archivo ---------------------------------- */
