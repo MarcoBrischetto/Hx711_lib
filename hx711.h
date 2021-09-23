@@ -39,8 +39,8 @@
 //#define M   (0.0023365f) //sensor 1
 //#define B   (-130.142654f)
 
-#define M   (0.002370192f) //sensor 2
-#define B   (-26.5461312f)
+#define M   (-0.00246342f) //sensor 2
+#define B   (+222.8653189f)
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 #include <stdint.h>
